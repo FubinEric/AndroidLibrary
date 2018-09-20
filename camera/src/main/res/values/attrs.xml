@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RecognitionScanBoxView">
+
+        <!-- 扫描框距离toolbar底部的距离，默认值为90dp -->
+        <attr name="topOffset" format="dimension|reference" />
+        <!-- 扫描框的宽度，默认值为200dp -->
+        <attr name="rectWidth" format="dimension|reference" />
+        <!-- 条码扫样式描框的高度，默认值为140dp -->
+        <attr name="rectHeight" format="dimension|reference" />
+        <!-- 除去扫描框，其余部分阴影颜色，默认值为#88000000 -->
+        <attr name="maskColor" format="color|reference" />
+        <!-- 扫描边框的宽度，默认值为1dp -->
+        <attr name="borderHeight" format="dimension|reference" />
+        <!-- 扫描边框的颜色，默认值为@android:color/white -->
+        <attr name="borderColor" format="color|reference" />
+        <!-- 扫描框边角线的宽度，默认值为3dp -->
+        <attr name="cornerHeight" format="dimension|reference" />
+        <!-- 扫描框边角线的长度，默认值为20dp -->
+        <attr name="cornerLength" format="dimension|reference" />
+        <!-- 扫描框边角线的颜色，默认值为@android:color/white -->
+        <attr name="cornerColor" format="color|reference" />
+        <!-- 判断是否是二维码扫描模式 -->
+        <attr name="isQrCodeStyle" format="boolean|reference" />
+
+    </declare-styleable>
+</resources>
